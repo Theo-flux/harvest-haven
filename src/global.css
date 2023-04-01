@@ -24,6 +24,9 @@
     --lg: 1024px;
     --xl: 1440px;
     --xxl: 2560px;
+
+    /* max container width */
+    --maxWidth: 1300px;
 }
 
 html {
