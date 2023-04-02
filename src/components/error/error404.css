@@ -6,11 +6,163 @@
 }
 
 .error-section .error {
+    position: relative;
     width: 95%;
     max-width: var(--maxWidth);
     margin: 0 auto;
+}
+
+.error .error-inner {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.error-inner figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid magenta; */
+}
+
+.error-inner-info {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.error-inner-info p{
+    font-weight: 300;
+}
+
+.error-inner-info .tag{
+    font-weight: 500;
+}
+
+.error-inner-info h1{
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.error-inner-info .btn-section{
+    margin-top: 2rem;
+}
+
+.btn-section button{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    color:white;
+}
+
+.btn-section .goback-home{
+    background-color: var(--secondary);
+    color:white;
+    margin-right: 1rem;
+}
+
+.btn-section .goback-home:hover{
+    text-decoration: underline;
+    background-color: transparent;
+    color:white;
+}
+
+.social-desktop-container{
+    visibility: hidden;
+}
+
+.social-desktop-container .icon{
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+.social-desktop-container .icon:last-of-type{
+    margin-bottom: 0rem;
+ }
+
+.error-footer {
+    margin-top: 2rem;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0rem;
+}
+
+.error-footer .social-container .icon{
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.error-footer .contact{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    /* border: 1px solid magenta; */
+}
+
+.error-footer .contact div{
+    background-color: white;
+    width: 30%;
+    height: 1px;
+}
+
+@media (min-width: 768px) {
+    .error .error-inner {
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+
+    .error-inner figure {
+        width: 70%;
+    }
+
+    .error-inner-info {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .error-inner-info h1{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 968px) {
+
+    .social-desktop-container{
+        visibility: visible;
+        position: absolute;
+        top: 35%;
+        right: 0px;
+        border: 1px solid white;
+        border-radius: var(--sm-radius);
+        width: fit-content;
+        padding: 0.5rem;
+        cursor: pointer;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .error-footer .social-container {
+        visibility: hidden;
+    }
 }
