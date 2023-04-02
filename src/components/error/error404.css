@@ -1,0 +1,16 @@
+/* error component styling */
+
+.error-section {
+    width: 100%;
+    /* border: 1px solid magenta; */
+}
+
+.error-section .error {
+    width: 95%;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}

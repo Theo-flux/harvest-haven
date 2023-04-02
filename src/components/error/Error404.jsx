@@ -1,8 +1,12 @@
-import React from 'react'
+import './error404.css'
 
 function Error404() {
   return (
-    <div>Error404</div>
+    <div className='error-section'>
+      <div className='error'>
+        Error404
+      </div>
+    </div>
   )
 }
 

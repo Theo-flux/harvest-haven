@@ -17,6 +17,7 @@
     --md-radius: 0.375rem;
 
     /* target breakpoints variables for screens; `min-width` specifically */
+    /* for documentation purpose */
     --xs: 320px;
     --sm: 375px;
     --base: 425px;
@@ -26,7 +27,11 @@
     --xxl: 2560px;
 
     /* max container width */
-    --maxWidth: 1300px;
+    --maxWidth: 1440px;
+
+    /* transition */
+    --trans-duration: 300ms;
+    --trans-func: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
@@ -37,4 +42,21 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--sm-radius);
+    transition-property: all;
+    transition-duration: var(--trans-duration);
+    transition-timing-function: var(--trans-func);
+}
+
+button:hover {
+  background-color: var(--secondary);
+  color: white;
 }
