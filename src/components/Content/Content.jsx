@@ -28,14 +28,10 @@ const Content = () => {
        <div className="content">
         <h2>{content.number}</h2>
         <h3>{content.title}</h3>
-        <p>{content.text} <a href="#"> Read More</a></p>
+        <p className='text'>{content.text} <a href="#"> Read More</a></p>
        </div>   
         ))}
       </div> {/** content-container  ends */}
-      <div className="content-contact">
-       <hr />
-       <p>Contact Information</p>
-      </div>
       <div className="content-mobile">
       </div>
     </section> /**content-section ends */

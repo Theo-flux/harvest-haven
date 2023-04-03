@@ -19,12 +19,13 @@ function Error404() {
             </div>
           </div> {/** error-inner-info */}
         </div>
-        <Content/>
         <div className='social-desktop-container'>
-            <i className="icon ri-facebook-circle-line"></i>
-            <i className="icon ri-twitter-line"></i>
-            <i className="icon ri-instagram-line"></i>
-          </div>
+          <i className="icon ri-facebook-circle-line"></i>
+          <i className="icon ri-twitter-line"></i>
+          <i className="icon ri-instagram-line"></i>
+        </div>
+
+        <Content/>
         
         <div className='error-footer'>
           <div className='social-container'>

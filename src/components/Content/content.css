@@ -1,6 +1,5 @@
 .content-section{
-    position: absolute;
-    top:400px;
+
 }
 .content-mobile{
     display: none;
@@ -17,14 +16,16 @@
     margin-bottom:.4rem;
 }
 .content p {
-   font-size: 18px;
-   font-weight: 400;
+   font-size: 1rem;
+   font-weight: 300;
    line-height: 21px;
    letter-spacing: 0.018em;
 }
 .content a{
     color:white;
-    font-size: 16px;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: 600;
 }
 .content a:hover{
 color:#d3cbb7;

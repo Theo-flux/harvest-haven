@@ -60,3 +60,19 @@ button:hover {
   background-color: var(--secondary);
   color: white;
 }
+
+.app {
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .app {
+        height: auto;
+    } 
+}
+
+@media (min-width: 1200px) {
+    .app {
+        height: 100vh;
+    } 
+}

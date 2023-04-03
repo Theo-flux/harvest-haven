@@ -110,11 +110,12 @@ img {
     justify-content: space-between;
     align-items: center;
     width: 180px;
+    color: #d3cbb7;
     /* border: 1px solid magenta; */
 }
 
 .error-footer .contact div{
-    background-color: white;
+    background-color: #d3cbb7;
     width: 30%;
     height: 1px;
 }
