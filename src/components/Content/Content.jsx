@@ -35,10 +35,10 @@ const Content = () => {
       <div className="content-mobile">
         <h4>Trending Contents</h4>
         <div className="cells">
-        <p>Seasonal Farming</p>
-        <p>Farming Education</p>
+        <p>01 Seasonal Farming</p>
+        <p>01 Farming Education</p>
         </div> 
-        <div className="bottom"><p>Irrigation Scheduling</p> </div>
+        <div className="bottom"><p>01 Irrigation Scheduling</p> </div>
      </div>  {/* content-mobile ends */}
     </section> /**content-section ends */
   )

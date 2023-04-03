@@ -126,7 +126,7 @@ img {
 
 @media (min-width: 768px) {
     .error .error-inner {
-        height: 600px;
+        height: 650px;
         display: flex;
         flex-direction: row;
         justify-content: center;
