@@ -62,19 +62,7 @@ button:hover {
 }
 
 .app {
-    height: 100vh;
-}
-
-@media (min-width: 768px) {
-    .app {
-        height: auto;
-    } 
-}
-
-@media (min-width: 1000px) {
-    .app {
-        height: auto;
-    } 
+    height: auto;
 }
 
 @media (min-width: 1440px) {
