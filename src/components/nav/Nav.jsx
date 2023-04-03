@@ -53,7 +53,7 @@ function Nav() {
                   )
                 })
               }
-              <button className='sign-in'>Sign in</button>
+              <button className='sign-in'>Sign up</button>
           </div>
           <button className='sign-up'>Sign in</button>
         </div>
