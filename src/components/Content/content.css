@@ -1,8 +1,12 @@
-.content-section{
-
+body{
+    background: linear-gradient(135deg, rgba(107, 142, 35, 0.87) 0%, rgba(53, 71, 18, 0.87) 100%), url(/bg_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 .content-mobile{
-    display: none;
+    display: none
 }
 .content-container{
     display:flex;
@@ -54,9 +58,35 @@ text-align: right;
     } 
     .content-mobile{
         display: block;
+        color:white;
     } 
-    .content-section{
-        position: sticky;
-    } 
+    .content-mobile h4{
+         text-align:center;
+         margin-bottom: 1rem;
+    }
+    .cells{
+    display: flex;  
+    }
+    .bottom{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:.5rem;
+    }
+    .content-mobile p{
+        border: 1px solid white;
+        border-radius: var(--sm-radius);
+        width: fit-content;
+        padding: 0.5rem;
+        cursor: pointer;
+        width: 50%;
+        text-align: center;
+        margin-left:.7rem;
+        cursor:pointer;
+        transition:1s;
+    }
+    .content-mobile p:hover{
+        background-color: #d3cbb7;
+    }
 }
 

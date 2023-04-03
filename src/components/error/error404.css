@@ -85,7 +85,9 @@ img {
    font-size: 1.5rem;
    margin-bottom: 1rem;
 }
-
+.social-desktop-container .icon:hover{
+    color:#d3cbb7;
+}
 .social-desktop-container .icon:last-of-type{
     margin-bottom: 0rem;
  }
@@ -103,7 +105,9 @@ img {
     margin-right: 1rem;
     font-size: 1.5rem;
 }
-
+.error-footer .social-container .icon:hover{
+    color:#d3cbb7;
+}
 .error-footer .contact{
     cursor: pointer;
     display: flex;

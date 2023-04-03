@@ -33,7 +33,13 @@ const Content = () => {
         ))}
       </div> {/** content-container  ends */}
       <div className="content-mobile">
-      </div>
+        <h4>Trending Contents</h4>
+        <div className="cells">
+        <p>Seasonal Farming</p>
+        <p>Farming Education</p>
+        </div> 
+        <div className="bottom"><p>Irrigation Scheduling</p> </div>
+     </div>  {/* content-mobile ends */}
     </section> /**content-section ends */
   )
 }
