@@ -36,9 +36,9 @@ const Content = () => {
         <h4>Trending Contents</h4>
         <div className="cells">
         <p>01 Seasonal Farming</p>
-        <p>01 Farming Education</p>
+        <p>02 Farming Education</p>
         </div> 
-        <div className="bottom"><p>01 Irrigation Scheduling</p> </div>
+        <div className="bottom"><p>03 Irrigation Scheduling</p> </div>
      </div>  {/* content-mobile ends */}
     </section> /**content-section ends */
   )

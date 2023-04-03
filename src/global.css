@@ -65,8 +65,8 @@ button:hover {
     height: auto;
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .app {
         height: 100vh;
     } 
-}
+} */

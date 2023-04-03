@@ -15,7 +15,7 @@ function Error404() {
             <p className='info'>We’re sorry, but the page you’re trying to access is currently unavailable</p>
             <div className='btn-section'>
               <button className='goback-home'>Back to Home</button>
-              <button className='help-center'>Vist our help center</button>
+              <button className='help-center'>Visit our help center</button>
             </div>
           </div> {/** error-inner-info */}
         </div>
