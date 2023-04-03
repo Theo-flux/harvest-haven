@@ -67,6 +67,7 @@ text-align: right;
         margin-top:.5rem;
     }
     .content-mobile p{
+        font-size: 0.875rem;
         border: 1px solid white;
         border-radius: var(--sm-radius);
         width: fit-content;
