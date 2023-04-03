@@ -1,6 +1,6 @@
 import spaceIllustration from '../../images/error404_illustration.svg'
 import './error404.css'
-
+import Content from '../Content/Content';
 function Error404() {
   return (
     <div className='error-section'>
@@ -17,14 +17,16 @@ function Error404() {
               <button className='goback-home'>Back to Home</button>
               <button className='help-center'>Vist our help center</button>
             </div>
-          </div>
+          </div> {/** error-inner-info */}
         </div>
         <div className='social-desktop-container'>
-            <i className="icon ri-facebook-circle-line"></i>
-            <i className="icon ri-twitter-line"></i>
-            <i className="icon ri-instagram-line"></i>
-          </div>
+          <i className="icon ri-facebook-circle-line"></i>
+          <i className="icon ri-twitter-line"></i>
+          <i className="icon ri-instagram-line"></i>
+        </div>
 
+        <Content/>
+        
         <div className='error-footer'>
           <div className='social-container'>
             <i className="icon ri-facebook-circle-line"></i>
@@ -32,9 +34,9 @@ function Error404() {
             <i className="icon ri-instagram-line"></i>
           </div>
           <div className='contact'><div></div><small>Contact Information</small></div>
-        </div>
-      </div>
-    </div>
+        </div> {/** error footer */ }
+      </div> {/** error ends  */ }
+    </div> /**Error section */ 
   )
 }
 

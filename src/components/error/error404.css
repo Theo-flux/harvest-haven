@@ -85,7 +85,9 @@ img {
    font-size: 1.5rem;
    margin-bottom: 1rem;
 }
-
+.social-desktop-container .icon:hover{
+    color:#d3cbb7;
+}
 .social-desktop-container .icon:last-of-type{
     margin-bottom: 0rem;
  }
@@ -103,25 +105,28 @@ img {
     margin-right: 1rem;
     font-size: 1.5rem;
 }
-
+.error-footer .social-container .icon:hover{
+    color:#d3cbb7;
+}
 .error-footer .contact{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 180px;
+    color: #d3cbb7;
     /* border: 1px solid magenta; */
 }
 
 .error-footer .contact div{
-    background-color: white;
+    background-color: #d3cbb7;
     width: 30%;
     height: 1px;
 }
 
 @media (min-width: 768px) {
     .error .error-inner {
-        height: 600px;
+        height: 650px;
         display: flex;
         flex-direction: row;
         justify-content: center;
